@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>Padding</title>
+<style type = "text/css">
+div { 
+    text-align: center;
+    width: 20%;
+    height: 40px;
+    margin: 10px;
+    left: 25%;
+ }
+.div1 { border-style: solid;
+        border-color: rgb(11, 100, 100); 
+        padding: 15px;}
+.div2 { border-style: double;
+        padding:20px 30px;
+        border-left-width: 10px;
+        border-right-width: 10px; }
+.div3 { border-style: groove ;
+        padding: 15px 10px 20px;
+        border-color: rgb(68, 145, 72);}
+.div4 { border-style: inset;
+         padding: 5px 10px 20px 15px;
+        border-color: rgb(156, 192, 247); }
+.div5 { border-style: outset;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-color: rgb(156, 192, 247);}
+.div6 { border-style: dashed;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-width: 3px; }
+
+</style>
+</head>
+<body>
+    <h2>The Padding Property </h2>
+    <h4>Padding proerty creates extra space within an element</h4>
+    <div class = "div1">all four paddings are 15px</div>
+    <div class = "div2">Padding top & bottom are 20px and padding right & left are 30px</div>
+    <div class = "div3">Padding top is 15px, padding left & right are 10px and padding bottom is 20px </div>
+    <div class = "div4">Padding top is 5px, padding right is 10px, padding bottom is 20px and padding left is 15px</div>
+    <div class = "div5">Padding left & right are 30px </div>
+     <div class = "div6">Padding top & bottom are 20px </div>
+    </body>
+    </html>
