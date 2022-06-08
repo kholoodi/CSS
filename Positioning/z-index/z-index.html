@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> z-index property</title>
+    <style>
+    .box1{
+        background-color: rgb(158, 207, 145);
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        z-index: -1;
+       }
+    .box2{
+        background-color: rgb(119, 141, 240);
+        height: 150px;
+        width: 150px;
+        position: relative;
+        left: 30px;
+        top:30px;
+        z-index: 1;   
+        }
+    .box3{
+        background-color: rgb(188, 199, 86);
+        height: 150px;
+        width: 150px;
+        position:fixed; 
+        left:60px;
+        top:150px;
+        z-index: 2;
+        } 
+        .box4{
+        background-color: rgb(197, 78, 78);
+        height: 150px;
+        width: 150px;
+        position:fixed; 
+        left: 90px;
+        top:200px;
+        z-index: 3;
+        }
+    </style>
+</head>
+<body >
+    <h1>The Z-index property</h1>
+   <div class="box1"></div>
+   <div class="box2"></div>
+   <div class="box3"></div>
+   <div class="box4"></div>
+</body>
+</html>
