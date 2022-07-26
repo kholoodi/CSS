@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.grid-container {
+  display: grid;
+  grid-template-rows:70px 250px ;
+  grid-auto-flow:column;
+  grid-gap: 15px;
+  background-color: #052b0a;
+  padding: 15px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.61);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 25px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1>The grid-template-rows property</h1>
+<p>When we want to set two rows in each column with the given heights </p>
+<div class="grid-container">
+  <div class="item1">A</div>
+  <div class="item2">B</div>
+  <div class="item3">C</div>  
+  <div class="item4">D</div>
+  <div class="item5">E</div>
+  <div class="item6">F</div>
+  <div class="item7">G</div>
+  <div class="item8">H</div>
+</div>
+
+</body>
+</html>

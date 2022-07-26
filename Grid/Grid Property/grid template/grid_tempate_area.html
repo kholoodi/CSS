@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 {
+  grid-area: Area1;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 'Area1 Area1 Area1 Area1';
+  grid-gap: 5px;
+  background-color: #052b0a;
+  padding: 15px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.61);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 25px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1>The grid-template-areas property</h1>
+<p>Item1, is called "Area1" and will take up the place of four columns </p>
+<div class="grid-container">
+  <div class="item1">A</div>
+  <div class="item2">B</div>
+  <div class="item3">C</div>  
+  <div class="item4">D</div>
+  <div class="item5">E</div>
+  <div class="item6">F</div>
+  <div class="item7">G</div>
+  <div class="item8">H</div>
+  <div class="item9">I</div>
+</div>
+
+</body>
+</html>
