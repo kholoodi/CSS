@@ -2,27 +2,44 @@
 <html>
 <head>
 <style>
+div.box{height: 150px; width: 350px; border:solid 3px;}
 p.a { white-space:normal;}
-p.b { white-space:pre}
-p.c { white-space:nowrap;}
+p.b { white-space:nowrap}
+p.c { white-space:pre;}
+p.d { white-space:pre-wrap;}
+p.e { white-space:pre-line;}
+p.f { white-space:break-spaces;}
 </style>
 </head>
 <body>
 <h1>White-space Property</h1>
 <h2>white-space: normal</h2>
-  <p class="a">
-	  This is an example for normal value
-	  This is an example for normal value
-	  This is an example for normal value</p>
+<div class="box">
+  <p class="a">Every evening the fisherman went out fishing. He sometimes sold his fish at the market. Sometimes he did not catch many fish and he could not sell them.</p>
+</div>
+	<h2>white-space: nowrap</h2>
+	<div class="box">
+		<p class="b">Every evening the fisherman went out fishing. He sometimes sold his fish at the market. Sometimes he did not catch many fish and he could not sell them.</p>
+	  </div>
 <h2>white-space: pre</h2>
-  <p class="b">
-	 This is an example for pre value
-	 This is an example for pre value
-	 This is an example for pre value</p>
-<h2>white-space: nowrap</h2>
-  <p class="c"> 
-	  This is an example for norwap value
-	  This is an example for norwap value
-	  This is an example for norwap value</p>
+<div class="box">
+	<p class="c">
+		Every evening the fisherman went out fishing. He sometimes sold his fish at the market. Sometimes he did not catch many fish and he could not sell them.</p>
+  </div>
+<h2>white-space: pre-wrap</h2>
+<div class="box">
+	<p class="d">
+		Every evening the fisherman went out fishing. He sometimes sold his fish at the market. Sometimes he did not catch many fish and he could not sell them.</p>
+  </div>
+<h2>white-space: pre-line </h2>
+  <div class="box">
+	<p class="e">
+		Every evening the fisherman went out fishing. He sometimes sold his fish at the market. Sometimes he did not catch many fish and he could not sell them. </p>
+  </div>
+<h2>white-space: break-spaces</h2>
+<div class="box">
+	<p class="f">
+		Every evening the fisherman went out fishing. He sometimes sold his fish at the market. Sometimes he did not catch many fish and he could not sell them.</p>
+  </div>
 </body>
 </html>

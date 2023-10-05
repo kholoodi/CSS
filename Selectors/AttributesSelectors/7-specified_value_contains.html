@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {height : 20px; width :40px; border:2px solid blue; margin : 5px;}
+[class*="box"]{
+  background-color: yellow;
+  }
+</style>
+</head>
+<body>
+  <h2>CSS [attribute*="value"] Selector</h2>
+  <p>All div boxes  that with a "class" attribute matches or contains the "box" word, can get a yellow background .</p>
+  <div class="box"></div> 
+  <div class="Box1"></div> 
+  <div class="the-box-2"></div> 
+  <div class="box 3"></div>
+  <div class="box_4"></div>
+  <!--with [attribute*="value"] all the "class" attributes contains the "box" are acceptable -->
+</body>
+</html>
