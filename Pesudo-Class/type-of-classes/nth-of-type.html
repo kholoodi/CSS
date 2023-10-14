@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+:nth-of-type(3) {color: red;} ;} /*Select the thrid item for any same type group of elements */
+p:nth-of-type(2){color: blue;} /*Select the second items for every a group of elements of  type <p> */
+p b:nth-last-of-type(3) {color: green;}
+p i:nth-of-type(1) {color: lightblue;}
+li:nth-last-of-type(2){color: lightgreen;}
+</style>
+</head>
+<body>
+  <!-- The first body item is a <div>  contains a group elements  of type <p> --> --> 
+  <div>
+    <p> This is an example of Pesudo-classes.</p>
+    <!-- The second item of type <p> in < div> -->
+    <p> This is an example of Pesudo-classes.</p> <!--p:nth-of-type(2)-->
+    <!-- The thrid item in <div>  -->
+    <p> This is an example of Pesudo-classes.</p> <!--:nth-of-type(3)-->
+  </div>
+  
+  <!-- The second body item, and the frist of type <p> -->
+  <p> This is an example of Pesudo-classes.</p> 
+  
+ <!-- The thrid body item, and the second of type <p> -->
+ <!--p:nth-of-type(2)-->
+  <p>This is an example of <b>Pesudo-classes</b>.
+  This is an example of <b>Pesudo-classes</b>. <!--p b:nth-last-of-type(3)-->
+  This is an example of <b>Pesudo-classes</b>. <!--:nth-of-type(3)-->
+  This is an example of <b>Pesudo-classes</b>.
+  </p>
+  
+  <!-- The forth body item, and the thrid of type <p> -->
+   <!--:nth-of-type(3)-->
+  <p>This is an example of <i>Pesudo-classes</i> <!-- p i:nth-of-type(1)-->
+    This is an example of <i>Pesudo-classes</i>
+    </p>
+    
+  <!-- The fifith body item is a <ul> list and it's <li> s-->
+  <ul>
+    <li>This is an example of Pesudo-classes.</li>
+    <li>This is an example of Pesudo-classes.</li>
+    <!-- The thrid <li> item -->
+    <li>This is an example of Pesudo-classes.</li> <!--:nth-of-type(3)-->
+    <li>This is an example of Pesudo-classes.</li><!--li:nth-last-of-type(2)-->
+    <li>This is an example of Pesudo-classes.</li>
+  </ul>
+
+</body>
+</html>

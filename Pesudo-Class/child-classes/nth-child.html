@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+:nth-child(3){color:red;}/*Select the third item for any group of child elements*/
+p:nth-child(2){color: blue;} /*Select the second item for any a group of child elements of type <p> */
+p b:nth-last-child(3) {color: green;}
+p i:nth-child(1) {color: lightblue;}
+li:nth-last-child(2){color: lightgreen;}
+</style>
+</head>
+<body>
+  <!-- The first body child is a <div> contains a group of element <p> -->
+  <div>
+    <p> This is an example of Pesudo-classes.</p>
+    <!-- The second child in <p> group  -->
+    <p> This is an example of Pesudo-classes.</p> <!-- p:nth-child(2)-->
+    <!-- The third child in the <div> -->
+    <p> This is an example of Pesudo-classes.</p> <!-- :nth-child(3)-->
+  </div>
+   <!-- The second body child is type of <p> -->
+ <p> This is an example of Pesudo-classes.</p> <!-- p:nth-child(2)-->
+ 
+   <!-- The thrid body child is a <p> and has some <b>-->
+   <!-- :nth-child(3)-->
+ <p>This is an example of <b>Pesudo-classes</b>.
+  This is an example of <b>Pesudo-classes</b>. <!-- p b:nth-last-child(3) -->
+  This is an example of <b>Pesudo-classes</b>.
+  This is an example of <b>Pesudo-classes</b>.
+</p>
+ <!-- The forth body child is a <p> and has some <i>-->
+<p>This is an example of <i>Pesudo-classes</i> <!-- p i:nth-child(1)-->
+    This is an example of <i>Pesudo-classes</i></p>
+    <!-- The fifith body child is a <ul> list and it's <li> s-->
+    <ul>
+    <li>This is an example of Pesudo-classes.</li>
+    <li>This is an example of Pesudo-classes.</li>
+    <!-- The thrid child of <ul> -->
+    <li>This is an example of Pesudo-classes.</li> <!-- :nth-child(3)-->
+    <li>This is an example of Pesudo-classes.</li> <!-- li:nth-last-child(2)-->
+    <li>This is an example of Pesudo-classes.</li>
+    </ul>
+
+</body>
+</html>
