@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>important</title>
+    <style> 
+      /*class solector specificity = 10 */
+      .container {color: blue !important;}
+      /*element selector specificity = 1 */
+      p {color: green !important;} 
+      p {color: gray !important;} 
+      /*ID selector specificity = 100*/
+      #header {color: red !important;}
+  </style>
+</head>
+<body>
+  <!--inline style specificity = 1000 -->
+  <p style="color: gray;" id = "header" class="container" >Hello World!</p>
+  </body>
+</html>
