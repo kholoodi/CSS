@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    .grid-container1 { display: grid; grid-template-columns: auto auto;  gap: 10px; }
+    div { height: 200px;  width:300px;}
+    h3{text-align: center;}
+    #box1{ background-image: linear-gradient(#aed8d0, #888888);} /*to up*/ 
+    #box2{ background-image: linear-gradient(to bottom left, #aed8d0, #888888); } /*Diagonal Direction */
+    #box3{ background-image: linear-gradient(to right, #aed8d0, #888888); } /*from left to rightt*/
+    #box4{ background-image: linear-gradient(to left, #aed8d0, #888888);  } /*form right to left */
+   
+    </style>
+</head>
+<body>
+    <h1>Background-Gradient</h1>
+    <div class ="grid-container1">
+	<div id ="box1"> <h3>linear-gradient To up(default)</h3> </div>
+	<div id ="box2"> <h3>linear-gradient Diagonal-Direction</h3> </div>
+	<div id ="box3"> <h3>linear-gradient Left to right </h3> </div>
+	<div id ="box4"> <h3>linear-gradient Right to left</h3> </div> 
+
+	 
+    </div>
+</body>
+</html>

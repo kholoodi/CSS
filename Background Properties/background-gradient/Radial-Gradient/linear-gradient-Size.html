@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    .grid-container1 { display: grid; grid-template-columns: auto auto ;  gap: 10px; padding:5px; }
+     div { height: 250px;  width: 350px;}
+    .box{ height: 200px;  width: 300px;}
+    #box1{background-image: radial-gradient( closest-side at 70% 40%  , #aed8d0, #888888, #000000);  }
+    #box2{background-image: radial-gradient( closest-corner at 70% 40% , #aed8d0, #888888, #000000); }
+    #box3{background-image: radial-gradient( farthest-side at 70% 40% , #aed8d0, #888888, #000000); }
+    #box4{background-image: radial-gradient(farthest-corner at 70% 40% , #aed8d0, #888888, #000000); }
+    
+    </style>
+</head>
+<body>
+    <h1>Background-Gradient</h1>
+    <div class ="grid-container1">
+    <div><h3>Radial Gradient-closest-side</h3><div id ="box1" class="box"></div> </div>
+    <div> <h3>Radial Gradient-closest-corner</h3><div id ="box2" class="box"></div> </div>
+    <div><h3>Radial Gradient-farthest-side</h3><div id ="box3" class="box"></div> </div>
+    <div><h3>Radial Gradient-farthest-corner</h3><div id ="box4" class="box"></div></div>
+    
+    </div>
+</body>
+</html>
